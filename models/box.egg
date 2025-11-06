@@ -1,0 +1,21 @@
+<CoordinateSystem> { Z-up }
+
+<Group> box {
+  <VertexPool> box {
+    <Vertex> 0 { -0.5 -0.5 -0.5 }
+    <Vertex> 1 {  0.5 -0.5 -0.5 }
+    <Vertex> 2 {  0.5  0.5 -0.5 }
+    <Vertex> 3 { -0.5  0.5 -0.5 }
+    <Vertex> 4 { -0.5 -0.5  0.5 }
+    <Vertex> 5 {  0.5 -0.5  0.5 }
+    <Vertex> 6 {  0.5  0.5  0.5 }
+    <Vertex> 7 { -0.5  0.5  0.5 }
+  }
+
+  <Polygon> { <VertexRef> { 0 1 2 3 } }
+  <Polygon> { <VertexRef> { 4 5 6 7 } }
+  <Polygon> { <VertexRef> { 0 4 7 3 } }
+  <Polygon> { <VertexRef> { 1 5 6 2 } }
+  <Polygon> { <VertexRef> { 3 2 6 7 } }
+  <Polygon> { <VertexRef> { 0 1 5 4 } }
+}
